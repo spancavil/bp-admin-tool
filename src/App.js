@@ -1,3 +1,5 @@
+import './Styles/Global.scss';
+
 function App() {
   return (
     <div className="App">
