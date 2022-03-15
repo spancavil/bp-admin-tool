@@ -1,6 +1,5 @@
 import './Styles/Global.scss';
 
-function App() {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Drops from "./Views/Drops";
