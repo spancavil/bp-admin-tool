@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -9,8 +10,8 @@ import TableRow from "@mui/material/TableRow";
 import TableFooter from "@mui/material/TableFooter";
 import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
-import { Row } from "./Components/Row";
-import { useNavigate } from "react-router-dom";
+
+import { Row } from "./Row";
 
 function createData(name, desc, startTime, endTime) {
   return {
