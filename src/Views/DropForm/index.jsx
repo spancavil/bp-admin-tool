@@ -1,7 +1,12 @@
-import { Box, Paper, Typography } from '@mui/material'
+import { Box, Button, Paper, Typography } from '@mui/material'
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import DropTabs from './Components/TabPanel';
 
 const Form = () => {
+
+    const navigate = useNavigate();
+
     return (
         <Box sx={{
             width: '100vw',
@@ -19,10 +24,13 @@ const Form = () => {
                 alignItems: 'center',
                 padding: '20px',
             }}>
-                <Typography align={"center"}>
+                <Button color="primary" variant="contained" onClick={()=> navigate('/')}>
+                    Go back
+                </Button>
+                <Typography align={"center"} variant="h4">
                     Drop create
                 </Typography>
-
+                <DropTabs/>
             </Paper>
         </Box>
     )
