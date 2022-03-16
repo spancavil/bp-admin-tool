@@ -1,15 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './Styles/Global.scss';
 
-import Drops from "./Views/Drops";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainMenu from './Views/MainMenu';
+import Form from './Views/DropForm';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Drops/>} />
+        <Route path="/" element={<MainMenu/>} />
+        <Route path="/create-drop" element={<Form/>}/>
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default App;
+export default App
