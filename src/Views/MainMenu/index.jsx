@@ -18,6 +18,8 @@ import ListItemText from "@mui/material/ListItemText";
 
 import { PinDrop, Storefront } from "@mui/icons-material";
 import DropsTable from "./Components/Drops";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 180;
 
@@ -110,7 +112,7 @@ export default function MainMenu() {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ flexGrow: 1 }}>
       <CssBaseline />
       <AppBar position="absolute" open={open}>
         <Toolbar>
@@ -126,9 +128,18 @@ export default function MainMenu() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography sx={{ flexGrow: 1 }} variant="h6" noWrap component="div">
             {drops ? "Drops" : "Marketplace"}
           </Typography>
+
+          <Button color="inherit">
+            <Link
+              style={{ textDecoration: "none", color: "inherit" }}
+              to="/login"
+            >
+              Login{" "}
+            </Link>
+          </Button>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
