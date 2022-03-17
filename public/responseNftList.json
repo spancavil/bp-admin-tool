@@ -1,0 +1,120 @@
+{
+    "rarityList": [
+        {
+            "type": 1,
+            "name": "COMMON"
+        },
+        {
+            "type": 2,
+            "name": "RARE"
+        },
+        {
+            "type": 3,
+            "name": "EPIC"
+        },
+        {
+            "type": 4,
+            "name": "LEGENDARY"
+        }
+    ],
+    "repIdListMap": {
+        "1": [
+            {
+                "id": 1,
+                "name": "Marty"
+            },
+            {
+                "id": 2,
+                "name": "Tani"
+            },
+            {
+                "id": 3,
+                "name": "Agent Ted"
+            },
+            {
+                "id": 4,
+                "name": "Crappy Box"
+            },
+            {
+                "id": 5,
+                "name": "Firefighter"
+            },
+            {
+                "id": 6,
+                "name": "Bear Max"
+            },
+            {
+                "id": 7,
+                "name": "Crossie"
+            },
+            {
+                "id": 8,
+                "name": "Golden Rookie"
+            },
+            {
+                "id": 11,
+                "name": "Leti"
+            },
+            {
+                "id": 12,
+                "name": "Kibo"
+            },
+            {
+                "id": 13,
+                "name": "Kumarin"
+            },
+            {
+                "id": 14,
+                "name": "Cookie Man"
+            }
+        ],
+        "2": [
+            {
+                "id": 1000,
+                "name": "Rifle"
+            },
+            {
+                "id": 1002,
+                "name": "Blitz Sniper"
+            },
+            {
+                "id": 1009,
+                "name": "Split Buster"
+            },
+            {
+                "id": 1010,
+                "name": "Slayer"
+            },
+            {
+                "id": 1001,
+                "name": "Shotgun"
+            },
+            {
+                "id": 1011,
+                "name": "Trinity Bow"
+            },
+            {
+                "id": 1008,
+                "name": "Battle Hammer"
+            },
+            {
+                "id": 1013,
+                "name": "Storm Shooter"
+            },
+            {
+                "id": 1015,
+                "name": "Boomerang"
+            },
+            {
+                "id": 1012,
+                "name": "FireBug"
+            }
+        ]
+    },
+    "result": 0,
+    "error": {
+        "num": 0,
+        "action": 0,
+        "text": ""
+    }
+}
