@@ -146,7 +146,17 @@ export default function DropsTable() {
             <TableCell></TableCell>
             <TableCell></TableCell>
             <TableCell align = "left">
-              <Button onClick = {()=> navigate('/create-drop')} color="primary" variant="contained">Create Drop</Button>
+              <Button
+              sx = {{
+                position: 'absolute',
+                bottom: '5vh',
+                right: '3vw',
+                zIndex: 10,
+              }}
+              onClick = {()=> navigate('/create-drop')} color="primary" variant="contained"
+              >
+                Create Drop
+              </Button>
             </TableCell>
           </TableRow>
         </TableFooter>
