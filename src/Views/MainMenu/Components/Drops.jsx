@@ -122,9 +122,9 @@ export default function DropsTable() {
   const navigate = useNavigate();
 
   return (
-    <Paper sx={{ width: '100%', overflow: 'hidden', paddingTop: '10vh' }}>
-      <TableContainer sx={{ maxHeight: '90vh' }}>
-        <Table stickyHeader aria-label="sticky collapsible table">
+    <Paper sx={{ width: '100%', overflow: 'hidden', paddingTop: '10vh', paddingLeft: '4vw'}}>
+      <TableContainer sx={{ maxHeight: '90vh'}}>
+        <Table stickyHeader aria-label="collapsible table">
           <TableHead>
             <TableRow>
               <TableCell />
@@ -135,8 +135,8 @@ export default function DropsTable() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.map((row) => (
-              <Row key={row.name} row={row} />
+            {rows.map((row, idx) => (
+              <Row key={idx} row={row} />
             ))}
           </TableBody>
         <TableFooter>
